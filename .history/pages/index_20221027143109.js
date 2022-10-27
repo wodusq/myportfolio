@@ -61,7 +61,7 @@ export default function Home() {
               <a href='https://www.linkedin.com/in/micha%C5%82-lalecki-5848881b8/' target="_blank" ><AiFillLinkedin /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src="/photo.jpg" alt='photo' layout="fill" objectFit="cover" />
+              <Image src="/photo.png" alt='photo' layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -116,7 +116,7 @@ export default function Home() {
           
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className= 'basis-1/3 flex-1 relative text-center'>
-                <a href='https://m4rk37.com/' target="_blank" className='cursor-pointer'><Image alt='web1'  className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web1.jpg"/>
+                <a href='https://m4rk37.com/' target="_blank" className='cursor-pointer'><Image alt='web1'  className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web1.png"/>
                 <div className='rounded-lg image-overlay image-overlay-blur '>
                   <h3>Streetwear apparel site</h3>
                   <p>The site was made as a wordpress theme. I created my own theme because I will be able to add Woocommerce to it in the future.</p>
@@ -125,7 +125,7 @@ export default function Home() {
                 </a>
               </div>
               <div className= 'basis-1/3 flex-1 relative text-center'>
-                <a href='https://ecommerce-wodusq.vercel.app/?fbclid=IwAR1K5AK4-P7jqclpd49rm2H7fqdM7sTL2iGGrRmuPYev0UaVFSvsoAicfys' target="_blank" className='cursor-pointer'><Image alt='web2' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web2.jpg"/>
+                <a href='https://ecommerce-wodusq.vercel.app/?fbclid=IwAR1K5AK4-P7jqclpd49rm2H7fqdM7sTL2iGGrRmuPYev0UaVFSvsoAicfys' target="_blank" className='cursor-pointer'><Image alt='web2' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web2.png"/>
                 <div className='rounded-lg image-overlay image-overlay-blur '>
                   <h3>Full stack eCommerce application</h3>
                   <p className='px-5'>Technology i used is Next.js, strapi, cloudinary, auth0, stripe and more. </p>
@@ -133,18 +133,20 @@ export default function Home() {
                 </a>
               </div>
               <div className= 'basis-1/3 flex-1 relative text-center'>
-                <a href='https://wodusq.github.io/three-js-app/?fbclid=IwAR2x-q25o4RxuXxAlDm8y2WF-TzKs5mv-scAn5FvALPwZkLaY_ma_nFgDfQ' target="_blank" className='cursor-pointer'><Image alt='web3' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web3.jpg"/>
+                <a href='https://wodusq.github.io/three-js-app/?fbclid=IwAR2x-q25o4RxuXxAlDm8y2WF-TzKs5mv-scAn5FvALPwZkLaY_ma_nFgDfQ' target="_blank" className='cursor-pointer'><Image alt='web3' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web3.png"/>
                 <div className='rounded-lg image-overlay image-overlay-blur '>
-                  <h3>Three.js simple application</h3>
-                  <p className='px-5'>Technology i used is html, css, javascript and Three.js</p>
+                  <h3>Streetwear apparel site</h3>
+                  <p>Site was made as wordpress theme</p>
+                  <p className='px-5'>Technology i used is bootstrap, html, javascript, scss and more </p>
                 </div>
                 </a>
               </div>
               <div className= 'basis-1/3 flex-1 relative text-center'>
                 <a href='https://github.com/wodusq' target="_blank" className='cursor-pointer'><Image alt='web4' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web4.jpg"/>
                 <div className='rounded-lg image-overlay image-overlay-blur '>
-                  <h3>My GitHub</h3>
-                  <p className='px-5'>You can find more on my GitHub page. </p>
+                  <h3>Streetwear apparel site</h3>
+                  <p>Site was made as wordpress theme</p>
+                  <p className='px-5'>Technology i used is bootstrap, html, javascript, scss and more </p>
                 </div>
                 </a>
               </div>
