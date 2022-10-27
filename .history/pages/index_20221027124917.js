@@ -3,6 +3,10 @@ import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 
 import Image from 'next/image'
+import deved from '../public/photo.png'
+import web2 from '../public/web2.png';
+import web3 from '../public/web3.png';
+import web4 from '../public/web4.jpg';
 import { useState, useRef, useEffect} from 'react';
 
 import styles from '../styles/Home.module.css';
@@ -61,7 +65,7 @@ export default function Home() {
               <a href='https://www.linkedin.com/in/micha%C5%82-lalecki-5848881b8/' ><AiFillLinkedin /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src="/photo.png" alt='photo' layout="fill" objectFit="cover" />
+              <Image src={deved} alt='photo' layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -116,7 +120,7 @@ export default function Home() {
           
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className= 'basis-1/3 flex-1 relative text-center'>
-                <a href='https://m4rk37.com/'  className='cursor-pointer'><Image alt='web1'  className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web1.png"/>
+                <a href='https://m4rk37.com/'  className='cursor-pointer'><Image alt='web1'  className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="web1.png"/>
                 <div className='rounded-lg image-overlay image-overlay-blur '>
                   <h3>Streetwear apparel site</h3>
                   <p>Site was made as wordpress theme</p>
@@ -125,7 +129,7 @@ export default function Home() {
                 </a>
               </div>
               <div className= 'basis-1/3 flex-1 relative text-center'>
-                <a href='https://ecommerce-wodusq.vercel.app/?fbclid=IwAR1K5AK4-P7jqclpd49rm2H7fqdM7sTL2iGGrRmuPYev0UaVFSvsoAicfys'  className='cursor-pointer'><Image alt='web2' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web2.png"/>
+                <a href='https://ecommerce-wodusq.vercel.app/?fbclid=IwAR1K5AK4-P7jqclpd49rm2H7fqdM7sTL2iGGrRmuPYev0UaVFSvsoAicfys'  className='cursor-pointer'><Image alt='web2' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src={web2}/>
                 <div className='rounded-lg image-overlay image-overlay-blur '>
                   <h3>Streetwear apparel site</h3>
                   <p>Site was made as wordpress theme</p>
@@ -134,7 +138,7 @@ export default function Home() {
                 </a>
               </div>
               <div className= 'basis-1/3 flex-1 relative text-center'>
-                <a href='https://wodusq.github.io/three-js-app/?fbclid=IwAR2x-q25o4RxuXxAlDm8y2WF-TzKs5mv-scAn5FvALPwZkLaY_ma_nFgDfQ'  className='cursor-pointer'><Image alt='web3' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web3.png"/>
+                <a href='https://wodusq.github.io/three-js-app/?fbclid=IwAR2x-q25o4RxuXxAlDm8y2WF-TzKs5mv-scAn5FvALPwZkLaY_ma_nFgDfQ'  className='cursor-pointer'><Image alt='web3' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src={web3}/>
                 <div className='rounded-lg image-overlay image-overlay-blur '>
                   <h3>Streetwear apparel site</h3>
                   <p>Site was made as wordpress theme</p>
@@ -143,7 +147,7 @@ export default function Home() {
                 </a>
               </div>
               <div className= 'basis-1/3 flex-1 relative text-center'>
-                <a href='https://github.com/wodusq' className='cursor-pointer'><Image alt='web4' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src="/web4.jpg"/>
+                <a href='https://github.com/wodusq' className='cursor-pointer'><Image alt='web4' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' src={web4}/>
                 <div className='rounded-lg image-overlay image-overlay-blur '>
                   <h3>Streetwear apparel site</h3>
                   <p>Site was made as wordpress theme</p>

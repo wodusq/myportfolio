@@ -3,6 +3,10 @@ import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 
 import Image from 'next/image'
+import deved from '../public/photo.png'
+import web2 from '../public/web2.png';
+import web3 from '../public/web3.png';
+import web4 from '../public/web4.jpg';
 import { useState, useRef, useEffect} from 'react';
 
 import styles from '../styles/Home.module.css';
@@ -61,7 +65,7 @@ export default function Home() {
               <a href='https://www.linkedin.com/in/micha%C5%82-lalecki-5848881b8/' ><AiFillLinkedin /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src="/photo.png" alt='photo' layout="fill" objectFit="cover" />
+              <Image src={deved} alt='photo' layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
